@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css" /> 
+    <title>Swipe_Picking</title>
+</head>
+
+<body>
+    <aside>
+        <!-- My profil / lien / image  -->
+        <nav>
+            <div class="my_profil">
+                <img src="Pictures/Profil_Zikinf.jpg" alt="my Profil">
+            </div>
+        </nav>
+        <!-- Titre navigation -->
+        <nav>
+            <div class="navigation_title">
+                <p>Messages</p>
+            </div>
+        </nav>
+        <!-- Mes messages -->
+        <nav>
+            <div class="my_messages">
+                <!-- Message par musicien avec l'image de son profil -->
+                <div class="musician_text">
+                    <div class="musician_picture_message">
+                        <img src="Pictures/image_zikos.jpg" alt="img musician">
+                    </div>
+                    <div class="musician_text_detail">
+                        <p>
+                            Hey Salut ! a ce qu'il parait tu fais de la basse ?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </aside>
+
+    <!-- L'écran principal avec la card des musiciens -->
+    <main>
+        <!-- La carte du musicien qui apparait  -->
+        <div class="musician_card">
+            <!-- Image du musicien  -->
+            <div class="musician_picture">
+                <img src="Pictures/image_zikos.jpg" alt="img musician">
+            </div>
+            <!-- Description du musicien avec : son nom, son age, le logo de son instrument, ... -->
+            <div class="musician_description_button">
+                <div class="Logo_description">
+                    <!-- Logo de l'instrument du musicien (basse, guitare, batterie etc...) -->
+                    <div class="Logo_instrument">
+                    </div>
+                    <!-- Nom age  -->
+                    <div class="description">
+                        <p>Edith, 32 ans</p>
+                    </div>
+                </div>
+                <div class="bio">
+                    <P>
+                        Je suis guitariste depuis plus de 12 années dans diverses formations qui m’ont conduit à
+                        travailler sur des petites et moyennes scènes.
+                    </P>
+                </div>
+                <!-- boutons pour Swiper ou muter le musicien proposé   -->
+                <div class="buttons">
+                    <button id="mute_button"></button>
+                    <button id="swipe_button"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
