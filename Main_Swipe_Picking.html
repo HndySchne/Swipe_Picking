@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="main.css" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Swipe_Picking</title>
+    <script src="https://kit.fontawesome.com/2f68d66e0f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -13,6 +15,7 @@
         <nav>
             <div class="my_profil">
                 <img src="Pictures/Profil_Zikinf.jpg" alt="my Profil">
+                <div class="parameters"><i class="fa-solid fa-gear size_param"></i></div>
             </div>
         </nav>
         <!-- Titre navigation -->
@@ -23,15 +26,16 @@
         </nav>
         <!-- Mes messages -->
         <nav>
+            <!-- [HSR] - faire un foreach pour boucler sur les messages  -->
             <div class="my_messages">
                 <!-- Message par musicien avec l'image de son profil -->
                 <div class="musician_text">
                     <div class="musician_picture_message">
-                        <img src="Pictures/image_zikos.jpg" alt="img musician">
+                        <img src="Pictures/image_zikos.jpg" alt="img musician"> 
                     </div>
                     <div class="musician_text_detail">
                         <p>
-                            Hey Salut ! a ce qu'il parait tu fais de la basse ?
+                            Hey Salut ! à ce qu'il parait tu fais de la basse ?
                         </p>
                     </div>
                 </div>
@@ -55,7 +59,7 @@
                     </div>
                     <!-- Nom age  -->
                     <div class="description">
-                        <p>Edith, 32 ans</p>
+                        <p> <i class="fa-solid fa-microphone-lines"></i> <i class="fa-solid fa-user-tie"></i> Edith, 32 ans</p>
                     </div>
                 </div>
                 <div class="bio">
@@ -66,8 +70,8 @@
                 </div>
                 <!-- boutons pour Swiper ou muter le musicien proposé   -->
                 <div class="buttons">
-                    <button id="mute_button"></button>
-                    <button id="swipe_button"></button>
+                    <button id="mute_button"> <i class="fa-solid fa-volume-xmark"></i> Mute</button>
+                    <button id="swipe_button"> <i class="fa-solid fa-music"></i> Swipe</button>
                 </div>
             </div>
         </div>
