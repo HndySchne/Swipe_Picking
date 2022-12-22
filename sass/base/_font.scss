@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../../Font/Raleway-Italic-VariableFont_wght.ttf') format('truetype'),
+        url('../../Font/Raleway-VariableFont_wght.ttf') format('truetype'),
+        url('../../Font/static/Raleway-Bold.ttf') format('truetype');
+}
+
+// tout le projet   
+* {
+    font-family: 'raleway', serif;
+}
+
+h2{
+    background-color: #edebeb;
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    height: 40px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}

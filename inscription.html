@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="inscription.css" />
+    <link rel="stylesheet" href="public/css/style.css">
     <script src="https://kit.fontawesome.com/2f68d66e0f.js" crossorigin="anonymous"></script>
     <title>Inscription</title>
 </head>
@@ -16,51 +16,130 @@
             Créer un compte
         </h1>
     </header>
-    <section>
-        <div class="first_name">
-            <label for="first_name_input">Prénom</label>
-            <input type="text" id="first_name_input">
+    <section class="proj-identification">
+        <h2>
+            Tes informations &#119070;
+        </h2>
+        <div class="info-identification">
+            <!-- prénom -->
+            <div class="info-identification__input">
+                <label for="first-name__input">Prénom</label>
+                <input type="text" id="first-name__input" class="input">
+            </div>
+            <!-- nom -->
+            <div class="info-identification__input">
+                <label for="last-name__input">Nom</label>
+                <input type="text" id="last-name__input" class="input">
+            </div>
+            <!-- année de naissance du musicien  -->
+            <div class="info-identification__input">
+                <label for="proj-birthdate__input">Date de naissance</label>
+                <input type="date" id="proj-birthdate__input" class="input">
+            </div>
+            <!-- Style musical  -->
+            <div class="info-identification__input">
+                <label for="proj-musicstyle__input">Style musical</label>
+                <input type="text" id="proj-musicstyle__input" class="input">
+            </div>
         </div>
-        <div class="last_name">
-            <label for="last_name_input">Nom</label>
-            <input type="text" id="last_name_input">
-        </div>
-        <div class="instrument">
-            <p>Instrument</p>
-            <div class="instrument_logo">
-                <button>
-                    <i class="fa-solid fa-guitar"></i>
+        <div class="proj-instrument">
+            <h3>Ton/Tes instrument.s</h3>
+            <div class="instrument-buttons">
+                <button class="instrument-button">
+                    <!-- guitare  -->
+                    <span>
+                        &#x1F3B8;
+                    </span>
                 </button>
-                <button>
-                    <i class="fa-solid fa-drum"></i>
+                <button class="instrument-button">
+                    <!-- batterie  -->
+                    <span>
+                        &#129345;
+                    </span>
                 </button>
-                <button>
-                    <i class="fa-solid fa-microphone"></i>
+                <button class="instrument-button">
+                    <!-- microphone  -->
+                    <span>
+                        &#127908;
+                    </span>
                 </button>
-                <button>
-                    <i class="fa-solid fa-music"></i>
+                <!-- clavier -->
+                <button class="instrument-button">
+                    <span>
+                        &#127929;
+                    </span>
                 </button>
-                <button>
-                    <i class="fa-solid fa-plus"></i>
+                <!-- trompette -->
+                <button class="instrument-button">
+                    <span>
+                        &#127930;
+                    </span>
+                </button>
+                <button class="instrument-button">
+                    <span>
+                        +
+                    </span>
                 </button>
             </div>
         </div>
-        <div class="birthdate">
-            <label for="date_input">Date de naissance</label>
-            <input type="date" id="date_input">
+    </section>
+
+    <!-- expérience recherchée par le musicien  -->
+    <section class="proj-identification">
+        <h2>
+            Expérience
+        </h2>
+        <div class="proj-experience">
+            <button class="proj-experience__serious xp-button">
+                <span>
+                    &#128188;
+                </span>
+            </button>
+            <button class="proj-experience__fun xp-button">
+                <span>
+                    &#127918;
+                </span>
+            </button>
+            <button class="proj-experience__beer xp-button">
+                <span>
+                    &#127867;
+                </span>
+            </button>
+            <button class="proj-experience__beef xp-button">
+                <span>
+                    &#128002;
+                </span>
+            </button>
+        </div>
+        <a href="Main_Swipe_Picking.html">
+            <div class="validation-button">
+                <span>valider !</span>
+            </div>
+        </a>
+        <div class="response-button">
+            <div class="response-button__serious">
+                <h3>La Malette</h3>
+                <p>Tu rescherches des relations sérieuses (pro ou semi pro)</p>
+                <p>Pour toi faire de la musique est plus qu'une passion ;)</p>
+            </div>
+            <div class="response-button__fun">
+                <h3>Le Fun</h3>
+                <p>Tu rescherches à faire des concerts de temps en temps</p>
+                <p>Le plus important c'est de s'éclater avec la zik</p>
+            </div>
+            <div class="response-button__beer">
+                <h3>La bière</h3>
+                <p>faire des répetitions de temps en temps et boire des coups !</p>
+            </div>
+            <div class="response-button__beef">
+                <h3>Le boeuf / Jam</h3>
+                <p>Trouves les musiciens les plus chauds de ta régions, improvisation d'un soir garanti ;)</p>
+            </div>
         </div>
     </section>
-    <section>
-        <h1>
-            Expérience 
-        </h1>
-        <div>
-            <i class="fa-solid fa-suitcase"></i>
-            <i class="fa-solid fa-gamepad"></i>
-            <i class="fa-solid fa-beer-mug-empty"></i>
-            <i class="fa-solid fa-jar"></i>
-        </div>
-    </section>
+
+    <!-- javascript -->
+    <script src="js/inscription.js"></script>
 </body>
 
 </html>

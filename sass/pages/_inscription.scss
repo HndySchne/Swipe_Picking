@@ -1,0 +1,118 @@
+.proj-identification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.info-identification {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: $font-18;
+    padding: $pad-marg-inscription;
+
+    .info-identification__input {
+        width: 350px;
+        padding: 5px 15px 5px 15px;
+        margin: 5px 15px 5px 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+// Taille de la police de l'input 
+.input {
+    font-size: $font-18;
+}
+
+// =================================
+// INSTRUMENTS
+// =================================
+.proj-instrument {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .instrument-buttons {
+        padding: $pad-marg-inscription;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+
+        .instrument-button {
+            margin: $pad-marg-inscription;
+        }
+
+        span {
+            font-size: 22px;
+        }
+    }
+}
+
+// les boutons instruments 
+.instrument-button {
+    @include buttons();
+}
+
+// =================================
+// EXPERIENCES RECHERCHEES
+// =================================
+.proj-experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .xp-button{
+        padding: $pad-marg-inscription;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+        @include buttons();
+    }
+}
+
+// On cache le boutons validation et description des expériences 
+.response-button {
+    visibility: hidden;
+    @include flex-center-column();
+    margin: $pad-marg-inscription;
+    padding: $pad-marg-inscription;
+
+    .response-button__serious,
+    .response-button__fun,
+    .response-button__beer,
+    .response-button__beef {
+        @include flex-center-column();
+        margin: 5px;
+        padding: 5px;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+.validation-button {
+    visibility: hidden;
+    margin: 15px;
+    @include flex-center-column();
+    @include buttons();
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}

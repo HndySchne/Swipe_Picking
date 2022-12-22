@@ -1,0 +1,19 @@
+{
+  "name": "swipe_picking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HndySchne/Swipe_Picking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HndySchne/Swipe_Picking/issues"
+  },
+  "homepage": "https://github.com/HndySchne/Swipe_Picking#readme"
+}

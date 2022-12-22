@@ -1,0 +1,132 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.musician_card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 100px 0px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.musician_picture {
+    border-radius: 30px;
+}
+
+.musician_picture {
+    img {
+        width: 100%;
+        border-radius: 30px 30px 0px 0px;
+    }
+}
+
+.musician_description_button {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border: solid;
+    background-color: rgba(255, 230, 204, 0.8);
+}
+
+.Logo_description {
+    border: solid salmon;
+}
+
+.bio {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.buttons {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mute_button,
+#swipe_button {
+    border: solid;
+    width: 75px;
+    height: 75px;
+    border-radius: 45px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*                                          ASIDE PARAMETRAGE                                           */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+aside {
+    border: solid black;
+    width: 25%;
+    height: 800px;
+}
+
+.my_profil {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 5px;
+}
+
+.parameters {
+    height: 50px;
+    width: 50px;
+
+    i {
+        padding: 10px 10px 0px 10px;
+        font-size: 25px;
+        color: red;
+    }
+}
+
+.my_profil {
+    img {
+        object-fit: cover;
+    }
+}
+
+.navigation_title {
+    border-top: solid yellowgreen;
+    border-bottom: solid yellowgreen;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+    margin: 0%;
+}
+
+.my_messages {
+    height: 100px;
+}
+
+.musician_text {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.musician_picture_message {
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.musician_picture_message {
+    img {
+        width: 75px;
+        height: 75px;
+        border-radius: 45px;
+    }
+}
+
+.musician_text_detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5px;
+}
