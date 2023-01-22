@@ -235,9 +235,10 @@ body {
 }
 
 body, html {
-  height: 100%;
+  max-height: 926px;
   padding: 0px;
   margin: 0px;
+  overflow: hidden;
 }
 
 header {
