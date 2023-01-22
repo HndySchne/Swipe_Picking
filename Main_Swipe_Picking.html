@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="public/css/style.css" /> 
+    <link rel="stylesheet" href="public/css/style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Swipe_Picking</title>
@@ -11,6 +11,13 @@
 </head>
 
 <body>
+    <header>
+        <!-- navigation vers l'éccran paramètres et l'écran des messages  -->
+        <nav>
+            <div class="nav-message"><a href="#"><span>&#128172;</span></a></div>
+            <div class="nav-profil"><a href="#"><img src="Pictures/Profil_Zikinf.jpg" alt=""></a></div>
+        </nav>
+    </header>
     <!-- L'écran principal avec la card des musiciens -->
     <main>
         <!-- La carte du musicien qui apparait  -->
@@ -27,7 +34,8 @@
                     </div>
                     <!-- Nom age  -->
                     <div class="description">
-                        <p> <i class="fa-solid fa-microphone-lines"></i><i class="fa-solid fa-suitcase"></i> Edith, 32 ans</p>
+                        <p> <i class="fa-solid fa-microphone-lines"></i><i class="fa-solid fa-suitcase"></i> Edith, 32
+                            ans</p>
                     </div>
                 </div>
                 <div class="bio">
@@ -36,14 +44,16 @@
                         travailler sur des petites et moyennes scènes.
                     </P>
                 </div>
-                <!-- boutons pour Swiper ou muter le musicien proposé   -->
-                <div class="buttons">
-                    <button id="mute_button"> <i class="fa-solid fa-volume-xmark"></i> Mute</button>
-                    <button id="swipe_button"> <i class="fa-solid fa-music"></i> Swipe</button>
-                </div>
             </div>
         </div>
     </main>
+    <footer>
+        <!-- boutons pour Swiper ou muter le musicien proposé -->
+        <div class="buttons">
+            <button id="mute_button"> <i class="fa-solid fa-volume-xmark"></i> Mute</button>
+            <button id="swipe_button"> <i class="fa-solid fa-music"></i> Swipe</button>
+        </div>
+    </footer>
 </body>
 
 </html>
