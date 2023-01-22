@@ -232,13 +232,9 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-
-body, html {
-  max-height: 926px;
   padding: 0px;
   margin: 0px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
