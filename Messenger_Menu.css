@@ -1,0 +1,111 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*                                              COMMUN                                                  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@font-face
+{
+    font-family: 'raleway';
+    src: url('Font/Raleway-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('Font/Raleway-VariableFont_wght.ttf') format('truetype'), 
+         url('Font/static/Raleway-Bold.ttf') format('truetype'); 
+}
+
+body
+{
+    border: solid crimson;
+    background-image: url(Pictures/bg02.jpg);
+    display: flex; 
+    justify-content: center;
+}
+
+p 
+{
+    font-family: 'raleway', serif;
+}
+
+nav
+{
+    border: solid aqua;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5% 5% 0% 0%;
+}
+
+img
+{
+    border: solid chartreuse;
+    width: 30px;
+    height: 30px;
+    border-radius: 30% 30% 30% 30%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*                                    NAV BANDEAU PRINCIPAL                                             */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.nav-swipe
+{
+    width: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 0px 5px 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-logo
+{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px 5px 100px;
+    font-size: 20px;
+    color: black;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*                                     MAIN AVEC LES MESSAGES                                           */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.main 
+{
+    border: solid aqua;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.message-information
+{
+    border: solid brown;
+    width: 290px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.message-information__picture
+{
+    border: solid chartreuse;
+    width: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 30% 30% 30% 30%;
+}
+
+.message-information__message
+{
+    border: solid chartreuse;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
