@@ -1,29 +1,21 @@
-const btnSerious = document.querySelector(".proj-experience__serious"); 
-const btnFun = document.querySelector(".proj-experience__fun"); 
-const btnBeer = document.querySelector(".proj-experience__beer"); 
-const btnBeef = document.querySelector(".proj-experience__beef"); 
+// bouton générique 
+const buttons = document.querySelectorAll(".xp-button");
 
-console.log('wesh');
+// boutons expériences souhaitées !
+// const btnSerious = document.querySelector(".proj-experience__serious");
+// const btnFun = document.querySelector(".proj-experience__fun");
+// const btnBeer = document.querySelector(".proj-experience__beer");
+// const btnBeef = document.querySelector(".proj-experience__beef");
 
-btnSerious.addEventListener('click', ()=> {
-    console.log('wesh');
-    console.log(btnSerious);
-    btnSerious.style.background = "red";
-})
+// paragraphes invisibles 
+// const responsebtn = document.querySelector(".response-button"); 
 
+// console.log('test javascript');
 
-btnFun.addEventListener('click', ()=> {
-    console.log('wesh');
-    console.log(btnFun);
-})
-
-
-btnBeer.addEventListener('click', ()=> {
-    console.log('wesh');
-    console.log(btnBeer);
-})
-
-btnBeef.addEventListener('click', ()=> {
-    console.log('wesh');
-    console.log(btnBeef);
-})
+// // Actions - boutons expériences souhaitées !
+// button.addEventListener('click', () => {
+//     // changement estétique du bouton  
+//     button.classList.toggle("button-cliqued");
+//     button.classList.toggle("xp-button");
+//     responsebtn.style.visibility ="visible";
+// })

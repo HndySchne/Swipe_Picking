@@ -46,27 +46,23 @@ h2 {
   font-size: 18px;
 }
 
-.proj-instrument {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.proj-instrument .instrument-buttons {
+.instrument-buttons {
   padding: 15px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  width: 70%;
+  max-width: 700px;
 }
-.proj-instrument .instrument-buttons .instrument-button {
+.instrument-buttons .instrument-button {
   margin: 15px;
 }
-.proj-instrument .instrument-buttons span {
+.instrument-buttons span {
   font-size: 22px;
 }
 
 .instrument-button {
-  width: 200px;
+  width: 150px;
   height: 50px;
   border-radius: 20px;
   border: none;
@@ -78,14 +74,18 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 500px;
 }
 .proj-experience .xp-button {
   padding: 15px;
+  margin: 15px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  width: 70%;
-  width: 200px;
+  width: 150px;
   height: 50px;
   border-radius: 20px;
   border: none;
@@ -93,8 +93,11 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.xp-button span, .button-cliqued span {
+  font-size: 22px;
+}
+
 .response-button {
-  visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,14 +126,13 @@ h2 {
 }
 
 .validation-button {
-  visibility: hidden;
   margin: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 200px;
-  height: 50px;
+  height: 40px;
   border-radius: 20px;
   border: none;
   background-image: linear-gradient(#faf0e6, #fcfcfc);
@@ -288,6 +290,22 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 30000;
+}
+
+.button-cliqued {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(#faf0e6, #fcfcfc);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-right: 15px;
+  border: solid;
 }
 
 /*# sourceMappingURL=style.css.map */

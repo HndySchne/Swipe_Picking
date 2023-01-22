@@ -1,6 +1,6 @@
-@mixin buttons {
-    width: 200px;
-    height: 50px;
+@mixin buttons ($width-var: $width-buttons, $height-var: $height-buttons){
+    width: $width-var;
+    height: $height-var;
     border-radius: 20px;
     border: none;
     background-image: linear-gradient(#faf0e6,#fcfcfc);

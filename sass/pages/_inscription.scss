@@ -1,3 +1,4 @@
+// méthode mobile first 
 .proj-identification {
     display: flex;
     flex-direction: column;
@@ -30,17 +31,13 @@
 // =================================
 // INSTRUMENTS
 // =================================
-.proj-instrument {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     .instrument-buttons {
         padding: $pad-marg-inscription;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        width: 70%;
+        max-width: 700px;
 
         .instrument-button {
             margin: $pad-marg-inscription;
@@ -50,11 +47,10 @@
             font-size: 22px;
         }
     }
-}
 
 // les boutons instruments 
 .instrument-button {
-    @include buttons();
+    @include buttons(150px, 50px);
 }
 
 // =================================
@@ -64,20 +60,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px;
 
     .xp-button{
         padding: $pad-marg-inscription;
-        display: flex;
-        justify-content: center;
+        margin: $pad-marg-inscription;
+        @include flex-center-column();
         flex-wrap: wrap;
-        width: 70%;
-        @include buttons();
+        @include buttons(150px, 50px);
     }
 }
 
+
+.xp-button, .button-cliqued{
+    span{
+        font-size: 22px;
+    }
+}
+
+// EXPLICATIONS BOUTONS 
 // On cache le boutons validation et description des expériences 
 .response-button {
-    visibility: hidden;
+    // visibility: hidden;
     @include flex-center-column();
     margin: $pad-marg-inscription;
     padding: $pad-marg-inscription;
@@ -102,11 +107,10 @@
     }
 }
 
-
-
-
+// =====================================================
+// Le bouton qui permet de passer à la page suivante 
 .validation-button {
-    visibility: hidden;
+    // visibility: hidden;
     margin: 15px;
     @include flex-center-column();
     @include buttons();

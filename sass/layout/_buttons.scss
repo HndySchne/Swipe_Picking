@@ -1,0 +1,8 @@
+// boutons cliqués 
+.button-cliqued{
+    @include buttons();
+    @include flex-center-column();
+    padding: $pad-marg-inscription;
+    margin-right: $pad-marg-inscription;
+    border: solid;
+}
