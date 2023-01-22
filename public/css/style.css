@@ -172,6 +172,9 @@ nav img {
 main {
   display: flex;
   justify-content: center;
+  border: solid green;
+  height: 100%;
+  margin: 30px 10px 0px 10px;
 }
 
 .musician_card {
