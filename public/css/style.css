@@ -209,10 +209,10 @@ main {
 footer {
   border: solid;
   padding-bottom: 0px;
+  width: 100%;
 }
 
 .buttons {
-  width: 700px;
   margin: 25px 25px 0px 25px;
   border: solid;
   display: flex;
