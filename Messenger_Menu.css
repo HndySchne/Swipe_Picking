@@ -11,10 +11,14 @@
 
 body
 {
-    border: solid crimson;
     background-image: url(Pictures/bg02.jpg);
     display: flex; 
     justify-content: center;
+}
+
+header
+{
+    border: solid rgb(5, 6, 3);
 }
 
 p 
@@ -24,18 +28,16 @@ p
 
 nav
 {
-    border: solid aqua;
+    margin-bottom: 4px;
+    border: solid rgb(7, 8, 5);
     width: 300px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 5px 0px 10px 0px;
-    border-radius: 5% 5% 0% 0%;
 }
 
 img
 {
-    border: solid chartreuse;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -69,7 +71,6 @@ img
 
 main 
 {
-    border: solid aqua;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -86,7 +87,6 @@ main
 
 .message-information
 {
-    border: solid brown;
     width: 290px;
     display: flex;
     justify-content: flex-start;
@@ -95,7 +95,6 @@ main
 
 .message-information__picture
 {
-    border: solid chartreuse;
     width: 50px;
     display: flex;
     justify-content: center;
@@ -105,7 +104,6 @@ main
 
 .message-information__message
 {
-    border: solid chartreuse;
     width: 230px;
     display: flex;
     margin-left: 8px;
