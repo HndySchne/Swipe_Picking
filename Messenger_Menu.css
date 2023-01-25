@@ -29,15 +29,15 @@ nav
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 10px 0px 10px 0px;
+    margin: 5px 0px 10px 0px;
     border-radius: 5% 5% 0% 0%;
 }
 
 img
 {
     border: solid chartreuse;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 30% 30% 30% 30%;
 }
 
@@ -67,11 +67,7 @@ img
     color: black;
 }
 
-
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/*                                     MAIN AVEC LES MESSAGES                                           */
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-.main 
+main 
 {
     border: solid aqua;
     width: 300px;
@@ -79,7 +75,14 @@ img
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin: 5px 0px 10px 0px;
 }
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*                                     MAIN AVEC LES MESSAGES                                           */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 
 .message-information
 {
@@ -93,7 +96,7 @@ img
 .message-information__picture
 {
     border: solid chartreuse;
-    width: 30px;
+    width: 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -103,7 +106,7 @@ img
 .message-information__message
 {
     border: solid chartreuse;
-    width: 200px;
+    width: 230px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
