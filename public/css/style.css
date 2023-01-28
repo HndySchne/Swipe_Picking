@@ -263,4 +263,98 @@ header {
   border: solid;
 }
 
+.header-params {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+h1 {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-params {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid;
+}
+.nav-params button {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(#faf0e6, #fcfcfc);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.user-params {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.img-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.img-display__container {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  border: dotted grey;
+  background-color: rgb(36, 36, 36);
+  width: 100px;
+  height: 100px;
+}
+.img-display__container img {
+  width: 100px;
+  height: 100px;
+}
+
+.img-display__del {
+  position: relative;
+  top: -25px;
+  right: -80px;
+}
+
+.img-display__add {
+  position: relative;
+  top: 80px;
+  left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  border: solid red;
+  background-color: red;
+}
+
+.user-params__modification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.user-params__modification .xp-button {
+  margin-left: 15px;
+}
+.user-params__modification button {
+  margin-left: 15px;
+  font-size: 22px;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(#faf0e6, #fcfcfc);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 /*# sourceMappingURL=style.css.map */

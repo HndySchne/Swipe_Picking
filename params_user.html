@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://kit.fontawesome.com/2f68d66e0f.js" crossorigin="anonymous"></script>
+    <title>Paramètres</title>
+</head>
+
+<body>
+    <!-- Le header permet la navigation entre les différentes pages  -->
+    <header class="header-params">
+        <h1>
+            &#x1F6E0;
+        </h1>
+        <nav class="nav-params">
+            <div class="nav-message"><a href="#"><span>&#128172;</span></a></div>
+            <div class="nav-profil"><a href="main_swipe_picking.html"><img src="Pictures/Profil_Zikinf.jpg" alt=""></a></div>
+            <div class="nav-logout"><a href="index.html"><button class="fa fa-sign-out"></button></a></div>
+        </nav>
+    </header>
+    <!-- corps de la page  -->
+    <article class="user-params">
+        <!-- bloc images où l'on peut upload celles-ci  -->
+        <div class="img-display">
+            <div class="img-display__container img-display__container--1">
+                <img src="Pictures/Profil_Zikinf.jpg" alt="phot de profil">
+                <div class="img-display__del">&#10060;</div>
+            </div>
+            <div class="img-display__container img-display__container--2">
+                <div class="img-display__add">&#x2B;</div>
+            </div>
+            <div class="img-display__container img-display__container--3">
+                <div class="img-display__add">&#x2B;</div>
+            </div>
+            <div class="img-display__container img-display__container--4">
+                <div class="img-display__add">&#x2B;</div>
+            </div>
+            <div class="img-display__container img-display__container--5">
+                <div class="img-display__add">&#x2B;</div>
+            </div>
+            <div class="img-display__container img-display__container--6">
+                <div class="img-display__add">&#x2B;</div>
+            </div>
+        </div>
+        <!-- changer ses informations principales  -->
+        <div class="main-information">
+            <div class="user-params__title">
+                <h2>
+                    Age - Nom 
+                </h2>
+            </div>
+            <div class="user-params__modification">
+                <input type="date" value="30/01/1990">
+                <input type="text">
+            </div>
+        </div>
+        <div class="user-params__title">
+            <h2>
+                Description 
+            </h2>
+        </div>
+        <div class="user-params__modification">
+            <textarea id="musician-description" class="form-control" rows="5" cols="30"></textarea>
+        </div>
+    </article>
+
+    <!-- paramètres de recherhe  -->
+    <aside class="user-params">
+        <div class="user-params__title">
+            <h2>
+                Emplacement
+            </h2>
+        </div>
+        <div class="user-params__modification">
+            <input type="text">
+        </div>
+        <div class="user-params__title">
+            <h2>Style de musique</h2>
+        </div>
+        <div class="user-params__modification"><input type="text"></div>
+        <div class="user-params__title">
+            <h2>
+                Distance max
+            </h2>
+        </div>
+        <div class="user-params__modification">
+            <input type="range" name="musician-range" id="musician-range" min="0" max="600" step="100">
+        </div>
+        <div class="user-params__title">
+            <h2>
+                Je recherche
+            </h2>
+        </div>
+        <div class="user-params__modification">
+            <button class="xp-button proj-experience__serious">
+                <span>
+                    &#128188;
+                </span>
+            </button>
+            <button class="xp-button proj-experience__fun">
+                <span>
+                    &#127918;
+                </span>
+            </button>
+            <button class="xp-button proj-experience__beer">
+                <span>
+                    &#127867;
+                </span>
+            </button>
+            <button class="xp-button proj-experience__beef">
+                <span>
+                    &#128002;
+                </span>
+            </button>
+        </div>
+        <div class="user-params__title">
+            <h2>
+                International
+            </h2>
+        </div>
+        <div class="user-params__modification">
+            <button>oui</button>
+            <button>non</button>
+        </div>
+    </aside>
+    <div class="validation-button">
+        <span>valider !</span>
+    </div>
+</body>
+
+</html>
